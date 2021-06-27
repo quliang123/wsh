@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wsh.system.mapper.ActivityMapper">
+    
+    <resultMap type="Activity" id="ActivityResult">
+        <result property="activityId"    column="activity_id"    />
+        <result property="publisherId"    column="publisher_id"    />
+        <result property="publisherName"    column="publisher_name"    />
+        <result property="organizationId"    column="organization_id"    />
+        <result property="organizationName"    column="organization_name"    />
+        <result property="organizationPhone"    column="organization_phone"    />
+        <result property="activityDate"    column="activity_date"    />
+        <result property="activityPlace"    column="activity_place"    />
+        <result property="headline"    column="headline"    />
+        <result property="deadline"    column="deadline"    />
+        <result property="likeCount"    column="like_count"    />
+        <result property="discussCount"    column="discuss_count"    />
+        <result property="introduce"    column="introduce"    />
+        <result property="hot"    column="hot"    />
+    </resultMap>
+
+
+</mapper>
